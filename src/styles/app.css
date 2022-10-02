@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+.theme-dark {
+    --color-background: #1f1f1f;
+    --color-primary: #f2e8de;
+    --color-secondary: #4f26e9;
+    --color-tertiary: #d9f24f;
+    --color-primary-inverted: #1f1f1f;
+    --color-always-clear : #f2e8de;
+    --back-img :  url('../utilities/dark-waves-mob.svg');
+
+}
+.theme-light {
+    --color-background: #f2e8de;
+    --color-primary: #1f1f1f;
+    --color-secondary: #9966ff;
+    --color-tertiary: #4f26e9;
+    --color-primary-inverted: #f2e8de;
+    --color-always-clear : #f2e8de;
+    --back-img :  url('../utilities/light-waves-mob.svg');
+}
+@media(min-width:750px){
+    .theme-dark{
+        --back-img :  url('../utilities/dark-waves-des.svg');
+    }
+    .theme-light{
+        --back-img :  url('../utilities/light-waves-des.svg');
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--color-background);
+}
+
+body{
+    background-image: var(--back-img);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
