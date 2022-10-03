@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolioLR/static/css/main.a9110f77.css",
+    "main.css": "/portfolioLR/static/css/main.01e0ae47.css",
     "main.js": "/portfolioLR/static/js/main.26dea6a2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolioLR/static/js/787.1ed0c42c.chunk.js",
     "static/media/dark-waves-des.svg": "/portfolioLR/static/media/dark-waves-des.04ed86d42781da8c3cf5.svg",
@@ -8,12 +8,12 @@
     "static/media/dark-waves-mob.svg": "/portfolioLR/static/media/dark-waves-mob.58793edd54ce54c84146.svg",
     "static/media/light-waves-mob.svg": "/portfolioLR/static/media/light-waves-mob.63da745a11eca19de899.svg",
     "index.html": "/portfolioLR/index.html",
-    "main.a9110f77.css.map": "/portfolioLR/static/css/main.a9110f77.css.map",
+    "main.01e0ae47.css.map": "/portfolioLR/static/css/main.01e0ae47.css.map",
     "main.26dea6a2.js.map": "/portfolioLR/static/js/main.26dea6a2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolioLR/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9110f77.css",
+    "static/css/main.01e0ae47.css",
     "static/js/main.26dea6a2.js"
   ]
 }
