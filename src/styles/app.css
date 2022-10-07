@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
-
 .theme-dark {
     --color-background: #1f1f1f;
     --color-primary: #f2e8de;
     --color-secondary: #4f26e9;
-    --color-head: #4f26e9;
+    --color-head: rgba(79, 38, 233, 0.49);
+    --color-head-text: #d9f24f;
     --color-tertiary: #d9f24f;
     --color-primary-inverted: #1f1f1f;
     --color-always-clear : #f2e8de;
@@ -16,6 +16,8 @@
     --color-background: #f2e8de;
     --color-primary: #1f1f1f;
     --color-secondary: #9966ff;
+    --color-head: rgba(153, 102, 255, 0.49);
+    --color-head-text: #f2e8de;
     --color-tertiary: #4f26e9;
     --color-primary-inverted: #f2e8de;
     --color-always-clear : #f2e8de;
