@@ -8,13 +8,17 @@
     display: inline-block;
   }
   .left {
-    color:var(--color-tertiary);
+    color: var(--color-secondary);
     transform: skew(0deg, -15deg);
+    transition: color 1s ease-in;
   }
   .right {
-    color: var(--color-secondary);
+    color:var(--color-tertiary);
     transform: skew(0deg, 15deg);
+    transition: color 1s ease-in;
   }
+
+ 
   .left .content {
     width: 100vw;
     text-align: center;
@@ -27,13 +31,27 @@
   span {
     display: inline-block;
     font-family: Ubuntu;
-    font-size: 3vw;
+    font-size: 7vw;
     text-transform: uppercase;
     line-height: .8;
     transition: ease-out .6s;
     font-weight: bolder;
+    z-index: 9999;
   }
-
   .spanSlow.name{
-    font-size: 10vw;
+    font-size: 18vw;
+  }
+  @media(min-width:650px){
+    .left{
+      color:var(--color-tertiary);
+    }
+    .right{
+      color: var(--color-secondary);
+    }
+    span{
+      font-size: 3vw;
+    }
+    .spanSlow.name{
+      font-size: 10vw;
+    }
   }

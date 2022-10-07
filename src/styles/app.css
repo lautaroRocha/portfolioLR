@@ -5,6 +5,7 @@
     --color-background: #1f1f1f;
     --color-primary: #f2e8de;
     --color-secondary: #4f26e9;
+    --color-head: #4f26e9;
     --color-tertiary: #d9f24f;
     --color-primary-inverted: #1f1f1f;
     --color-always-clear : #f2e8de;
@@ -33,21 +34,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 html, body{
     height: 100vh;
     width: 100%;
     overflow-x: hidden;
     background-color: var(--color-background);
+    overflow-y: hidden;
 }
 
 body{
     background-image: var(--back-img);
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    background-size: cover;
 }
-
-
 
 
 

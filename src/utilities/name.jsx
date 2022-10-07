@@ -2,9 +2,6 @@ import React from "react";
 import '../styles/name.css'
 
 
-
-
-
 let width = window.innerWidth;
 
 function handleMouseMove(e) {
