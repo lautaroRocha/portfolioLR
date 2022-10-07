@@ -34,11 +34,11 @@ function App() {
 //get the text in the selected language
   useEffect(() =>{
     if(language === 'español'){
-    fetch('http://myjson.dit.upm.es/api/bins/3k6s')
+    fetch('https://myjson.dit.upm.es/api/bins/3k6s')
     .then(response => response.json())
     .then(data => setTextToUse(data))
     }else{
-    fetch('http://myjson.dit.upm.es/api/bins/3rwk')
+    fetch('https://myjson.dit.upm.es/api/bins/3rwk')
     .then(response => response.json())
     .then(data => setTextToUse(data))
     }
