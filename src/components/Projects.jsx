@@ -1,19 +1,22 @@
 import React from "react";
 import FadeIn from "../utilities/FadeIn";
+import MinProj from "./MinProj";
+
 import '../styles/tools.css'
 
 function Projects(props){
 
     let text = props.textToUse;
 
-    let works;
-
-    let sites = [];
+    let works, sites, pros;
 
     if(text){
         works = text.projects
-       console.log(Object.values(works))
+       sites = Object.values(works);
+       pros = Object.values(sites[2]);
+       console.log(pros)
     }
+    
 
     return(
         <>
@@ -24,9 +27,13 @@ function Projects(props){
             <h2>{text.projects.head}</h2>
             <p>{text.projects.body}</p>
         </div>}
-        {text &&
+        {pros &&
         <div className="tools-img">
-          
+          {pros.map((site, idx) => {
+            return(
+                <MinProj site={site} key={idx} />
+                )})
+            }
         </div>}
         </div>
         </FadeIn>
