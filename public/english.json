@@ -1,0 +1,57 @@
+{
+    "profile": {
+    "buttons": [
+    "contact me",
+    "download cv",
+    "my skills",
+    "my projects"
+    ]
+    },
+    "skills": {
+        "head" : "These are some of the tecnologies I'm most familiar with and those I choose to use in my projects.",
+        "body" : "I love keeping up to date with tech."
+    },
+    "projects": {
+        "head" : "These are some of the projects I've been working on most recently.",
+        "body" : "Click on any of them to see more.",
+        "projects" : {
+            "rioba-web" : {
+                "title" : "Rioba Web",
+                "snapshot" : "",
+                "link" : "https://lautarorocha.github.io/riobaWeb/",
+                "repo" : "https://github.com/lautaroRocha/riobaWeb",
+                "techs" : ["Html", "Sass", "Bootstrap"],
+                "brief" :"A full responsive web site developed for a local artist. It was my first experience working with code, I used HTML5, SASS as a CSS preprocessor and the Bootstrap library. The site is also optimized for accesibility and search engines."
+            },
+            "Outlove" : {
+                "title" : "Outlove",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/outlove",
+                "link" : "https://outlove.netlify.app/",
+                "techs" : ["Html", "Css", "Javascript", "SweetAlert", "Toastify"],
+                "brief" :"An e-commerce simulator developed with plain Javascript and only CSS. It has a dark/light theme toggler and data persistency through the browser's local storage. It gets the avalaible products data from a URL as a JSON object y posts the orders made by clients to an API hosted on the Pipedreams web service. It includes JS libraries to manage modals and notifications."
+            },
+            "Calculadora JS" : {
+                "title" : "Calculadora JS",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/calculadoraJS",
+                "link" : "https://lautarorocha.github.io/calculadoraJS/",
+                "techs" : ["Css", "Javascript", "POO"],
+                "brief" : "A basic operations calculator developed as practice on POO and JS logic. It has a light/dark theme toggler."
+            },
+            "miNOTE" :{
+                "title" : "miNOTE",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/miNOTES",
+                "link" : "https://minote-cf0e1.web.app",
+                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
+                "brief" :"Web app for taking and keeping notes, developed on React functional components. It has a database and an authentification users system based on Firebase. The app feats keyboard shortcuts, a minimalist UI, a favourites section and allows editing on saved notes."
+            }
+        }
+    },
+    "contact": {
+        "linkedin" : "https://www.linkedin.com/in/lautaro-rocha/",
+        "github" : "https://github.com/lautaroRocha",
+        "email" : "lautarovrocha@gmail.com"
+    }
+}

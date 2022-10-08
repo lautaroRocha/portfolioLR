@@ -1,0 +1,56 @@
+{
+    "profile": {
+    "buttons": [
+    "contactame",
+    "descargar cv",
+    "mis skills",
+    "mis proyectos"
+    ]
+    },
+    "skills": {
+        "head" : "Estas son algunas de las tecnologías que manejo y elijo usar en mis proyectos",
+        "body" : "Me encanta mantenerme actualizado."
+    },
+    "projects": {
+        "head" : "Estos son algunos proyectos de los que estuve realizando últimamente.",
+        "body" : "Entrá a cualquiera de ellos para saber más.",
+        "sites" : {
+            "rioba-web" : {
+                "title" : "Rioba Web",
+                "snapshot" : "",
+                "link" : "https://lautarorocha.github.io/riobaWeb/",
+                "repo" : "https://github.com/lautaroRocha/riobaWeb",
+                "techs" : ["Html", "Sass", "Bootstrap"],
+                "brief" :"Un sitio web totalmente responsive, desarrollado para un artista local. Fue mi primer experiencia en el mundo del desarrollo, y usé HTML5, SASS para preprocesar el CSS y la librería Bootstrap. Además está optimizado para accesibilidad y motores de búsqueda."
+            },
+            "Outlove" : {
+                "title" : "Outlove",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/outlove",
+                "link" : "https://outlove.netlify.app/",
+                "techs" : ["Html", "Css", "Javascript", "SweetAlert", "Toastify"],
+                "brief" :"Un simulador de e-commerce desarrollado en Javascript y CSS. Incluye un selector de tema (modo claro/oscuro), persistencia de datos (tema preferido por el usuario y pedido sin enviar) a tráves del almacenamiento local del navegador. Recibe los datos sobre los productos haciendo una petición a una URL con un objeto JSON y envía los pedidos realizados en el mismo formato a una API montada en el servicio Pipedreams. Incorpora librerías de Javascript para disparar ventantas modales y notificaciones."
+            },
+            "Calculadora JS" : {
+                "title" : "Calculadora JS",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/calculadoraJS",
+                "link" : "https://lautarorocha.github.io/calculadoraJS/",
+                "techs" : ["Css", "Javascript", "POO"],
+                "brief" :"Una calculadora de operaciones simple desarrollada como práctica de POO y lógica con Javascript. Cuenta con selector de modo (claro u oscuro)"
+            },
+            "miNOTE" :{
+                "title" : "miNOTE",
+                "snapshot" : "",
+                "repo" : "https://github.com/lautaroRocha/miNOTES",
+                "link" : "https://minote-cf0e1.web.app",
+                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
+                "brief" :"Aplicación web para tomar y guardar notas, desarrollada con componentes funcionales de React. Cuenta con una base de datos y sistema de autentificación de usuarios. Utiliza Firebase como backend y cuenta con atajos de teclado, diseño minimalista de UI, sección de favoritos y permite editar las notas guardadas."
+            }
+    }
+    },
+    "contact": {
+        "linkedin" : "https://www.linkedin.com/in/lautaro-rocha/",
+        "github" : "https://github.com/lautaroRocha"
+    }
+}    
