@@ -4,8 +4,8 @@ import React, {useState, useEffect} from "react";
 import Head from "./components/Head.jsx";
 import Profile from "./components/Profile.jsx";
 import Tools from "./components/Tools.jsx";
-import Tre from "./components/Tre.jsx";
 import './styles/app.css'
+import Projects from "./components/Projects.jsx";
 
 function App() {
 
@@ -34,11 +34,11 @@ function App() {
 //get the text in the selected language
   useEffect(() =>{
     if(language === 'español'){
-    fetch('https://myjson.dit.upm.es/api/bins/3k6s')
+    fetch('https://myjson.dit.upm.es/api/bins/h9bk')
     .then(response => response.json())
     .then(data => setTextToUse(data))
     }else{
-    fetch('https://myjson.dit.upm.es/api/bins/3rwk')
+    fetch('https://myjson.dit.upm.es/api/bins/hor4')
     .then(response => response.json())
     .then(data => setTextToUse(data))
     }
@@ -53,7 +53,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Profile textToUse={textToUse} />}></Route>
         <Route path="/tools" element={<Tools textToUse={textToUse} />}></Route>   
-        <Route path="/tre" element={<Tre />}></Route>        
+        <Route path="/projects" element={<Projects textToUse={textToUse}/>}></Route>        
       </Routes>
       </BrowserRouter>
     </>
