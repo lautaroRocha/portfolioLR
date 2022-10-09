@@ -6,13 +6,14 @@ import Profile from "./components/Profile.jsx";
 import Tools from "./components/Tools.jsx";
 import './styles/app.css'
 import Projects from "./components/Projects.jsx";
+import Project from "./components/Project.jsx";
 
 function App() {
 
   const [language, setLanguage] = useState('español');
-  const [textToUse, setTextToUse] = useState()
+  const [textToUse, setTextToUse] = useState();
   const body = document.querySelector('body');
-  body.className="theme-dark"
+  body.className="theme-dark";
   
 //set color theme 
   const changeTheme = () =>{
@@ -34,13 +35,13 @@ function App() {
 //get the text in the selected language
   useEffect(() =>{
     if(language === 'español'){
-    fetch("spanish.json")
-    .then(response => response.json())
-    .then(data => setTextToUse(data))
+      fetch("spanish.json")
+        .then(response => response.json())
+        .then(data => setTextToUse(data))
     }else{
-    fetch("english.json")
-    .then(response => response.json())
-    .then(data => setTextToUse(data))
+      fetch("english.json")
+        .then(response => response.json())
+        .then(data => setTextToUse(data))
     }
   }, [language])
 
@@ -53,7 +54,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Profile textToUse={textToUse} />}></Route>
         <Route path="/tools" element={<Tools textToUse={textToUse} />}></Route>   
-        <Route path="/projects" element={<Projects textToUse={textToUse}/>}></Route>        
+        <Route path="/projects" element={<Projects textToUse={textToUse}/>}></Route> 
+        <Route path="/project" element={<Project textToUse={textToUse} />}></Route>
       </Routes>
       </BrowserRouter>
     </>

@@ -1,11 +1,15 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import '../styles/mins.css'
 function MinProj(props){
+
+    let site = props.site;
+
     return(
         <>
-        <img className="min-back" src="" />
-        <span className="min-name">{props.site.name}</span>
-     
+        <Link className="min" to={`/project?title=${site.title}`}>
+        <span className="min-name">{site.title}</span>
+        </Link>
         </>
     )
 }

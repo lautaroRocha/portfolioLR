@@ -7,17 +7,14 @@ import '../styles/tools.css'
 function Projects(props){
 
     let text = props.textToUse;
-
     let works, sites, pros;
 
     if(text){
         works = text.projects
        sites = Object.values(works);
        pros = Object.values(sites[2]);
-       console.log(pros)
     }
     
-
     return(
         <>
         <FadeIn>
@@ -29,6 +26,7 @@ function Projects(props){
         </div>}
         {pros &&
         <div className="tools-img">
+            {console.log(pros)}
           {pros.map((site, idx) => {
             return(
                 <MinProj site={site} key={idx} />

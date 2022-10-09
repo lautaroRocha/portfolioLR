@@ -1,0 +1,15 @@
+.min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+
+.min-name{
+  color: var(--color-tertiary);
+  display: flex;
+  text-transform: none;
+}

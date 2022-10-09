@@ -17,7 +17,7 @@
         "sites" : {
             "rioba-web" : {
                 "title" : "Rioba Web",
-                "snapshot" : "",
+                "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/rioba-dsktp.png",
                 "link" : "https://lautarorocha.github.io/riobaWeb/",
                 "repo" : "https://github.com/lautaroRocha/riobaWeb",
                 "techs" : ["Html", "Sass", "Bootstrap"],
@@ -25,7 +25,7 @@
             },
             "Outlove" : {
                 "title" : "Outlove",
-                "snapshot" : "",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/outlove-buy.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/outlove",
                 "link" : "https://outlove.netlify.app/",
                 "techs" : ["Html", "Css", "Javascript", "SweetAlert", "Toastify"],
@@ -33,7 +33,7 @@
             },
             "Calculadora JS" : {
                 "title" : "Calculadora JS",
-                "snapshot" : "",
+                "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/calculadora.png",
                 "repo" : "https://github.com/lautaroRocha/calculadoraJS",
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
                 "techs" : ["Css", "Javascript", "POO"],
@@ -41,7 +41,7 @@
             },
             "miNOTE" :{
                 "title" : "miNOTE",
-                "snapshot" : "",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/miNOTES",
                 "link" : "https://minote-cf0e1.web.app",
                 "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],

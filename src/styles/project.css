@@ -1,0 +1,34 @@
+.project{
+    color: var(--color-tertiary);
+    text-align: right;
+}
+
+.project-title{
+    grid-column: 5 / 12;
+    grid-row: 2;
+    
+}
+.project-links{
+    grid-column: 8 / 12;
+    grid-row: 3;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.project-links a {
+    color: var(--color-tertiary);
+    text-decoration: none;
+}
+
+.project-brief{
+    grid-column: 5/12;
+    grid-row: 4/6;
+}
+
+.project-snap{
+    grid-column: 4/12;
+    grid-row: 8/12;
+    object-fit: contain;
+    width: 100%;
+}

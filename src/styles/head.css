@@ -119,5 +119,8 @@ header{
         justify-content: end;
         width: 90vw;
     }
+    .head-btns a, svg{
+      fill: var(--color-tertiary);
+    }
 }
 
