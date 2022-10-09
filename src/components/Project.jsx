@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
+import {TextContext} from '../App.js'
 import '../styles/project.css';
 
-function Project(props){
+function Project(){
 
     let params = new URLSearchParams(document.location.search)
     let title = params.get('title')
 
-    let text = props.textToUse;
+    let text = useContext(TextContext);
     let works, sites, pros, project;
 
     if(text){

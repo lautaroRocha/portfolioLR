@@ -1,5 +1,6 @@
 .min{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align:center;
@@ -12,4 +13,18 @@
   color: var(--color-tertiary);
   display: flex;
   text-transform: none;
+  background-color: var(--color-secondary);
+  padding: 5px;
+}
+
+.min-stack{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.min-stack span{
+  font-size: 1rem;
+  margin: 5px;
+  color: var(--color-tertiary);
 }

@@ -1,20 +1,20 @@
-import React from "react";
+import React, {useContext} from "react";
 import FadeIn from "../utilities/FadeIn";
 import MinProj from "./MinProj";
-
+import {TextContext} from '../App';
 import '../styles/tools.css'
 
-function Projects(props){
+function Projects(){
 
-    let text = props.textToUse;
+    let text = useContext(TextContext);
     let works, sites, pros;
 
     if(text){
         works = text.projects
-       sites = Object.values(works);
-       pros = Object.values(sites[2]);
+        sites = Object.values(works);
+        pros = Object.values(sites[2]);
     }
-    
+   
     return(
         <>
         <FadeIn>

@@ -1,12 +1,13 @@
-import React, {useRef} from "react";
+import React, {useRef, useContext} from "react";
 import FadeIn from "../utilities/FadeIn";
+import { TextContext } from "../App";
 import '../styles/tools.css'
 
-function Tools(props){
+function Tools(){
    
     const divToScroll = useRef();
 
-    let text = props.textToUse;
+    let text = useContext(TextContext);
 
 
 

@@ -1,13 +1,19 @@
-import React, {useEffect} from "react";
+import React, {useContext} from "react";
 import { Link } from "react-router-dom";
 import FadeIn from "../utilities/FadeIn";
 import '../styles/profile.css'
 import Name from "../utilities/Name";
+import {TextContext} from '../App.js'
 
 
-function Profile(props){
 
-    let text = props.textToUse
+
+function Profile(){
+
+    let text = useContext(TextContext);
+
+    console.log(text)
+
 
     return(
         <>

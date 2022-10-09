@@ -1,12 +1,17 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, createContext} from "react";
 import Head from "./components/Head.jsx";
 import Profile from "./components/Profile.jsx";
 import Tools from "./components/Tools.jsx";
 import './styles/app.css'
 import Projects from "./components/Projects.jsx";
 import Project from "./components/Project.jsx";
+
+
+
+export const TextContext = createContext();
+
 
 function App() {
 
@@ -45,18 +50,19 @@ function App() {
     }
   }, [language])
 
-  
 
   return (
     <>
       <BrowserRouter >
-      <Head theme={changeTheme} lang={changeLang}/>
+        <Head theme={changeTheme} lang={changeLang}/>
+      <TextContext.Provider value={textToUse}>
       <Routes>
-        <Route path="/" element={<Profile textToUse={textToUse} />}></Route>
-        <Route path="/tools" element={<Tools textToUse={textToUse} />}></Route>   
-        <Route path="/projects" element={<Projects textToUse={textToUse}/>}></Route> 
-        <Route path="/project" element={<Project textToUse={textToUse} />}></Route>
+        <Route path="/" element={<Profile/>}></Route>
+        <Route path="/tools" element={<Tools />}></Route>   
+        <Route path="/projects" element={<Projects/>}></Route> 
+        <Route path="/project" element={<Project  />}></Route>
       </Routes>
+    </TextContext.Provider>
       </BrowserRouter>
     </>
   );
