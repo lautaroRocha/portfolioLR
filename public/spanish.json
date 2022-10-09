@@ -32,7 +32,7 @@
                 "brief" :"Un simulador de e-commerce desarrollado en Javascript y CSS. Incluye un selector de tema (modo claro/oscuro), persistencia de datos (tema preferido por el usuario y pedido sin enviar) a tráves del almacenamiento local del navegador. Recibe los datos sobre los productos haciendo una petición a una URL con un objeto JSON y envía los pedidos realizados en el mismo formato a una API montada en el servicio Pipedreams. Incorpora librerías de Javascript para disparar ventantas modales y notificaciones."
             },
             "Calculadora JS" : {
-                "title" : "Calculadora JS",
+                "title" : "JS Calc",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/calculadora.png",
                 "repo" : "https://github.com/lautaroRocha/calculadoraJS",
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",

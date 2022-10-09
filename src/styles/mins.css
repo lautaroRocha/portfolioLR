@@ -1,11 +1,11 @@
 .min{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    margin: 1rem;
-    text-decoration: none;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content: space-evenly;
+  margin: 1rem;
+  text-decoration: none;
 }
 
 
@@ -27,4 +27,5 @@
   font-size: 1rem;
   margin: 5px;
   color: var(--color-tertiary);
+  font-size: .8rem;
 }

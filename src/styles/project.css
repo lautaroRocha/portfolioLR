@@ -2,7 +2,15 @@
     color: var(--color-tertiary);
     text-align: right;
 }
+.project-window{
+    grid-column: 5 / 12;
+    grid-row: 4 / 10;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
+}
 .project-title{
     grid-column: 5 / 12;
     grid-row: 2;
@@ -21,14 +29,15 @@
     text-decoration: none;
 }
 
-.project-brief{
-    grid-column: 5/12;
-    grid-row: 4/6;
-}
 
 .project-snap{
-    grid-column: 4/12;
-    grid-row: 8/12;
+    
     object-fit: contain;
     width: 100%;
+    height: auto;
+}
+
+a{
+    grid-column: 8 / 12;
+    grid-row: 12;
 }
