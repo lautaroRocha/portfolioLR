@@ -12,6 +12,9 @@ function Profile(){
 
     let text = useContext(TextContext);
 
+    console.log(text)
+
+
     return(
         <>
         <FadeIn>

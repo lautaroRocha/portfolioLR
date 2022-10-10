@@ -30,7 +30,7 @@ function Project(){
                 <a target="blank" href={project.link}>DEMO</a>
                 <a target="blank" href={project.repo}>CODE</a>
             </div>
-            <div className="project-window">
+            <div className="project-window masked-overflow">
             <p className="project project-brief">{project.brief}</p>
             <img src={project.snapshot} alt="Picture of the website" className="project-snap"/> 
             </div>

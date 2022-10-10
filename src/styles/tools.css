@@ -88,6 +88,15 @@
     filter: none;
 }
 
+.container a{
+    grid-column: 8 / 12;
+    grid-row: 10;
+    align-self: center;
+}
+.container a svg{
+    fill: var(--color-tertiary);
+}
+
 
 
  @media(min-width:500px){

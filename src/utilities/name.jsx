@@ -27,9 +27,8 @@ function handleWindowResize() {
 window.addEventListener('mousemove', handleMouseMove);
 window.addEventListener('touchmove', handleMouseMove);
 window.addEventListener('resize', handleWindowResize);
+
 function Name(){
-
-
     return(
     <div className="profile-name">
     <div className="wrap">
