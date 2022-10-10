@@ -15,42 +15,41 @@ export const TextContext = createContext();
 
 function App() {
 
-  const [language, setLanguage] = useState('español');
+  const [language, setLanguage] = useState('spanish');
   const [textToUse, setTextToUse] = useState();
+  const [theme, setTheme] = useState('dark');
+
+  
   const body = document.querySelector('body');
-  body.className="theme-dark";
   
 //set color theme 
-  const changeTheme = () =>{
-      let theme = body.className;
-      if(theme === 'theme-dark'){
-        body.className="theme-light"
-      }else{
-        body.className="theme-dark"
-      }
+useEffect( () =>{
+  body.className = 'theme-'+theme;
+}, [theme]);
+  
+const changeTheme = () =>{
+      theme === 'dark' ? setTheme('light') : setTheme('dark');
   }
-  //set language of the app
-  const changeLang = () =>{
-    if(language === 'español'){
-      setLanguage('english')
-    }else{
-      setLanguage('español')
-    }
-  }
+
 //get the text in the selected language
-  useEffect(() =>{
-    if(language === 'español'){
-      fetch("spanish.json")
-        .then(response => response.json())
-        .then(data => setTextToUse(data))
-    }else{
-      fetch("english.json")
-        .then(response => response.json())
-        .then(data => setTextToUse(data))
-    }
+
+  
+const getSpanish = () =>{
+  fetch("spanish.json")
+  .then(response => response.json())
+  .then(data => setTextToUse(data))
+}
+const getEnglish = () => {
+    fetch("english.json")
+    .then(response => response.json())
+    .then(data => setTextToUse(data))
+  }
+const changeLang = () =>{
+  language === "spanish" ? setLanguage('english') : setLanguage('spanish')
+}
+useEffect(() =>{
+  language === 'spanish' ? getSpanish() : getEnglish();
   }, [language])
-
-
   return (
     <>
       <BrowserRouter >
