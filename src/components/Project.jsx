@@ -5,20 +5,18 @@ import '../styles/project.css';
 
 function Project(){
 
-    let params = new URLSearchParams(document.location.search)
-    let title = params.get('title')
+    let params = new URLSearchParams(document.location.search);
+    let title = params.get('title');
 
     let text = useContext(TextContext);
     let works, sites, pros, project;
 
     if(text){
-        works = text.projects
-       sites = Object.values(works);
-       pros = Object.values(sites[2]);
-       project = pros.find(site => site.title === title);
+        works = text.projects;
+        sites = Object.values(works);
+        pros = Object.values(sites[2]);
+        project = pros.find(site => site.title === title);
     }
-
-
 
     return(
         <>

@@ -47,7 +47,7 @@
                 "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
                 "brief" :"Web app for taking and keeping notes, developed on React functional components. It has a database and an authentification users system based on Firebase. The app feats keyboard shortcuts, a minimalist UI, a favourites section and allows editing on saved notes."
             }
-        }
+        }        
     },
     "contact": {
         "linkedin" : "https://www.linkedin.com/in/lautaro-rocha/",
