@@ -22,7 +22,7 @@ function Head(props){
     useEffect(() => {
         let head = document.querySelector('.menu');
         head.classList.remove('opened');
-        navIcons.current.style.height = "70px"
+        navIcons.current.style.height = "65px"
     }, [moved])
 
 

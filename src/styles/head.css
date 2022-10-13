@@ -1,7 +1,6 @@
 @import 'app.css';
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-
 header{
     display: flex;
     flex-direction: column-reverse;
@@ -9,7 +8,6 @@ header{
     align-items: center;
     gap: 1rem;
     margin: 1rem;
-
     position: absolute;
     overflow: hidden;
     z-index: 10;
@@ -20,7 +18,6 @@ header{
 
     
 }
-
 .head-btns{
     color: var(--color-tertiary);
     display: flex;
@@ -30,7 +27,6 @@ header{
     gap: 2rem;
     margin: 1rem;
 }
-
 .head-btns a, svg{
     background-color: transparent;
     text-transform: none;
@@ -42,7 +38,6 @@ header{
     box-shadow: none;
     filter: drop-shadow(0px 0px 9px var(--color-tertiary));
 }
-
 .menu {
     background-color: transparent;
     border: none;
@@ -50,8 +45,6 @@ header{
     display: none;
     margin: 1rem;
   }
-
-
 .line {
     fill: none;
     stroke: var(--color-head-text);
@@ -71,7 +64,6 @@ header{
     stroke-dasharray: 60 207;
     stroke-width: 6;
   }
-
   .opened .line1 {
     stroke-dasharray: 90 207;
     stroke-dashoffset: -134;
@@ -87,7 +79,6 @@ header{
     stroke-dashoffset: -134;
     stroke-width: 6;
   }
-  
   @media(max-width: 450px){
     .menu{
         display: flex;
@@ -106,10 +97,9 @@ header{
       align-items: center;
     }
 }
-@media(min-width: 450px){
+@media(min-width: 451px){
   header{
     background-color: transparent;
-    margin: 1rem;
     position: relative;
   }
     .head-btns{

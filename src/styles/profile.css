@@ -4,12 +4,10 @@
     position: absolute;
     overflow: hidden;
 }
-
 .profile-name{
     position: relative;
     top: 14vh;
 }
-
 .profile-btns{
     position: relative;
     width: 40vw;
@@ -37,7 +35,7 @@
 .profile-btns button::before{
     text-transform: uppercase;
     color: var(--color-effect-text);
-    padding: .5rem;
+    padding: inherit;
     border-radius: 10px;
     content: attr(data-text);
     position:absolute;
@@ -48,6 +46,7 @@
     transition:width 1s ease-in-out;
     z-index:-1;
     white-space: nowrap;
+    text-overflow: clip;
 }
 .profile-btns button:hover{
     cursor: pointer;
