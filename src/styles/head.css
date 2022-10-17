@@ -6,17 +6,12 @@ header{
     flex-direction: column-reverse;
     justify-content: start;
     align-items: center;
-    gap: 1rem;
     margin: 1rem;
     position: absolute;
     overflow: hidden;
     z-index: 10;
-
     background-color: var(--color-secondary);
-
     transition: height 1s ease-in-out;
-
-    
 }
 .head-btns{
     color: var(--color-tertiary);
@@ -79,7 +74,7 @@ header{
     stroke-dashoffset: -134;
     stroke-width: 6;
   }
-  @media(max-width: 450px){
+  @media (max-width: 550px){
     .menu{
         display: flex;
     }
@@ -97,15 +92,17 @@ header{
       align-items: center;
     }
 }
-@media(min-width: 451px){
+@media (min-width: 551px){
   header{
     background-color: transparent;
     position: relative;
+    width: 100vw;
+
   }
     .head-btns{
         display: flex;
         flex-direction: row;
-        justify-content: end;
+        justify-content: flex-end;
         width: 90vw;
     }
     .head-btns a, svg{
@@ -113,3 +110,64 @@ header{
     }
 }
 
+@media(max-height:550px){
+  header{
+    width: 10vw;
+  }
+  .menu{
+    display: flex;
+}
+.glass {
+  background: var(--color-head);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid var(--color-head-text);
+}
+button.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem;
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+  background-color: var(--color-secondary);
+  transition: height 1s ease-in-out;
+}
+.head-btns{
+  color: var(--color-tertiary);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 9;
+  gap: 1rem;
+  width: auto;
+}
+.head-btns a, svg{
+  background-color: transparent;
+  text-transform: none;
+  padding: 0;
+  fill: var(--color-head-text);
+}
+.head-btns a:hover, svg:hover{
+  cursor: pointer;
+  box-shadow: none;
+  filter: drop-shadow(0px 0px 9px var(--color-tertiary));
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  margin: 1rem;
+}
+}

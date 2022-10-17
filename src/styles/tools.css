@@ -1,7 +1,9 @@
 .container{
     height: 100vh;
+    max-height: 100vh;
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
@@ -41,7 +43,7 @@
     overflow-x:scroll;
     overflow-y: hidden;
     grid-column: 4 / 13;
-    grid-row: 6/10;
+    grid-row: 7/10;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -90,13 +92,27 @@
 
 .container a{
     grid-column: 8 / 12;
-    grid-row: 10;
+    grid-row: 11;
     align-self: center;
 }
 .container a svg{
     fill: var(--color-tertiary);
 }
 
+
+@media(min-width:550px){
+    .tools-text{
+        grid-row: 3/5;
+    }
+    .tools-img{
+        grid-row: 6/10;
+    }
+    .container a {
+        grid-row: 11;
+        place-self: baseline;
+        z-index: 9;
+    }
+}
 
 
  @media(min-width:500px){
@@ -108,11 +124,12 @@
         border-left: 20px solid transparent;
         border-right: 100px solid transparent;
      }
-     
+  
 }
 @media(min-width:600px){
     .tools-img{
         padding-left: 150px;
+        padding-bottom: 10px;
     }
     .tools-img::-webkit-scrollbar-thumb{
         border-right: 40px solid transparent;
