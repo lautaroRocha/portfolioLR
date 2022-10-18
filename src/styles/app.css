@@ -25,7 +25,7 @@
     --color-always-clear : #f2e8de;
     --back-img :  url('../utilities/light-waves-mob.svg');
 }
-@media(min-width:750px){
+@media(min-width:1050px){
     .theme-dark{
         --back-img :  url('../utilities/dark-waves-des.svg');
     }
@@ -39,6 +39,7 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
+
 }
 html, body{
     height: 100vh;
@@ -52,6 +53,18 @@ body{
     background-image: var(--back-img);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container{
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 
 

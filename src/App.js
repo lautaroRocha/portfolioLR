@@ -1,17 +1,19 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, {useState, useEffect, createContext} from "react";
+
 import Head from "./components/Head.jsx";
 import Profile from "./components/Profile.jsx";
 import Tools from "./components/Tools.jsx";
-import './styles/app.css'
+import Contact from "./components/Contact.jsx";
 import Projects from "./components/Projects.jsx";
 import Project from "./components/Project.jsx";
+
+import './styles/app.css'
 
 
 
 export const TextContext = createContext();
-
 
 function App() {
 
@@ -32,7 +34,6 @@ const changeTheme = () =>{
   }
 
 //get the text in the selected language
-
   
 const getSpanish = () =>{
   fetch("spanish.json")
@@ -50,6 +51,7 @@ const changeLang = () =>{
 useEffect(() =>{
   language === 'spanish' ? getSpanish() : getEnglish();
   }, [language])
+
   return (
     <>
       <BrowserRouter >
@@ -60,6 +62,7 @@ useEffect(() =>{
         <Route path="/tools" element={<Tools />}></Route>   
         <Route path="/projects" element={<Projects/>}></Route> 
         <Route path="/project" element={<Project  />}></Route>
+        <Route path="/contact" element={<Contact  />}></Route>
       </Routes>
     </TextContext.Provider>
       </BrowserRouter>

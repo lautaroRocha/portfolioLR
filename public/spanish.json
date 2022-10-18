@@ -50,7 +50,13 @@
     }
     },
     "contact": {
-        "linkedin" : "https://www.linkedin.com/in/lautaro-rocha/",
-        "github" : "https://github.com/lautaroRocha"
+        "text" : {
+            "title" : "Gracias por interesarte en mi perfil",
+            "para" : "Estos son los canales por los que podés contactarme."},
+        "links" : {
+            "linkedin" : "https://www.linkedin.com/in/lautaro-rocha/",
+            "github" : "https://github.com/lautaroRocha",
+            "email" : "lautarovrocha@gmail.com"
+        }
     }
 }    
