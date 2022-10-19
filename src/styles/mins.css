@@ -7,16 +7,26 @@
   margin: 1rem;
   text-decoration: none;
 }
-
-
-.min-name{
-  color: var(--color-tertiary);
-  display: flex;
-  text-transform: none;
-  background-color: var(--color-secondary);
-  padding: 5px;
+.min>div{
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+.min-icon{
+  width: auto;
+  height: 80%;
+  filter: invert(95%) sepia(91%) saturate(690%) hue-rotate(9deg) brightness(97%) contrast(96%);
 }
 
+.min-name{
+  color: var(--color-secondary);
+  display: flex;
+  text-transform: none;
+  padding: 5px;
+
+  position: absolute;
+  top: 25%;
+}
 .min-stack{
   display: flex;
   justify-content: center;

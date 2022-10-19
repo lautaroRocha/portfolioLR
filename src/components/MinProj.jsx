@@ -12,13 +12,9 @@ function MinProj(props){
     return(
         <>
         <Link className="min" to={`/project?title=${site.title}`}>
-        <span className="min-name">{site.title}</span>
-        <div className="min-stack">
-        { stack.map((tech, idx) => {
-            return(
-                <span  key={idx}> {tech} </span>
-            )
-        })}
+        <div>
+            <span className="min-name">{site.title}</span>
+            <img className="min-icon" src={site.icon} alt="" />
         </div>
         </Link>
         </>
