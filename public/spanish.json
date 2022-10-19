@@ -17,6 +17,7 @@
         "sites" : {
             "rioba-web" : {
                 "title" : "Rioba Web",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/rioba-icon.png?raw=true",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/rioba-dsktp.png",
                 "link" : "https://lautarorocha.github.io/riobaWeb/",
                 "repo" : "https://github.com/lautaroRocha/riobaWeb",
@@ -25,6 +26,7 @@
             },
             "Outlove" : {
                 "title" : "Outlove",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/outlove-icon.png?raw=true",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/outlove-buy.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/outlove",
                 "link" : "https://outlove.netlify.app/",
@@ -33,6 +35,7 @@
             },
             "Calculadora JS" : {
                 "title" : "JS Calc",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/calc-icon.png?raw=true",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/calculadora.png",
                 "repo" : "https://github.com/lautaroRocha/calculadoraJS",
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
@@ -41,6 +44,7 @@
             },
             "miNOTE" :{
                 "title" : "miNOTE",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/miNOTES",
                 "link" : "https://minote-cf0e1.web.app",
