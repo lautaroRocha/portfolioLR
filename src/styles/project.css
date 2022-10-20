@@ -10,6 +10,16 @@
     font-size: clamp(1rem, 10vw, 3rem);
 
 }
+.project-stack{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    grid-column: 4 / 12;
+    grid-row: 3;
+    justify-content: end;
+    padding: .5rem;
+}
 .project-links{
     grid-column: 7 / 10;
     grid-row: 4;
@@ -27,7 +37,6 @@
     width: 7vw;
     height: 7vh;
 }
-
 .project-window{
     grid-column: 4 / 12;
     grid-row: 5 / 10;

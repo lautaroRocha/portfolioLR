@@ -121,10 +121,10 @@
         border-left: 40px solid transparent;
     }
     .text-gallery::-webkit-scrollbar-thumb{
-        border-right: 200px solid transparent;
+        border-right: 100px solid transparent;
      }
 }
-@media(min-width:700px){
+/* @media(min-width:700px){
     .tools-img::-webkit-scrollbar-thumb{
         border-right: 10vw solid transparent;
         border-left: 15vw solid transparent;
@@ -133,4 +133,4 @@
         border-right: 30vw solid transparent;
         border-left: 30vw solid transparent;
      }
-}
+} */

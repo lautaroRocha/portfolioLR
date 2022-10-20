@@ -12,15 +12,12 @@
   width: auto;
   height: 80%;
   filter: var(--filter);
-  transition: all .5s ease-in-out;
+  transition: all .8s linear;
 }
 
 .min:hover .min-icon{
-  filter: var(--hover-filter)drop-shadow(1px 1px 0px var(--color-secondary)) drop-shadow(-1px 1px 3px var(--color-always-clear));
+  filter: var(--hover-filter)drop-shadow(1px 1px 0px var(--color-secondary));
   stroke: red;
-  stroke-width: 100px;
-  stroke-dasharray: 2,2;
-  stroke-linejoin: round;
 }
 
 .min-name{
