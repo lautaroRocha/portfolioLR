@@ -7,16 +7,13 @@ function MinProj(props){
 
     let site = props.site;
 
-    let stack = site.techs;
-
     return(
         <>
+        {site &&
         <Link className="min" to={`/project?title=${site.title}`}>
-        <div>
             <span className="min-name">{site.title}</span>
             <img className="min-icon" src={site.icon} alt="" />
-        </div>
-        </Link>
+        </Link>}
         </>
     )
 }

@@ -3,29 +3,39 @@
   display: flex;
   flex-direction: column;
   text-align:center;
-  justify-content: space-evenly;
-  margin: 1rem;
+  justify-content: center;
+  margin:0 2vw;
   text-decoration: none;
-}
-.min>div{
-  width: auto;
-  height: 100%;
-  position: relative;
+  width: 30vw;
 }
 .min-icon{
   width: auto;
   height: 80%;
-  filter: invert(95%) sepia(91%) saturate(690%) hue-rotate(9deg) brightness(97%) contrast(96%);
+  filter: var(--filter);
+  transition: all .5s ease-in-out;
+}
+
+.min:hover .min-icon{
+  filter: var(--hover-filter)drop-shadow(1px 1px 0px var(--color-secondary)) drop-shadow(-1px 1px 3px var(--color-always-clear));
+  stroke: red;
+  stroke-width: 100px;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
 }
 
 .min-name{
-  color: var(--color-secondary);
+  color: var(--color-tertiary);
   display: flex;
+  white-space: nowrap;
   text-transform: none;
-  padding: 5px;
-
   position: absolute;
-  top: 25%;
+  top: 11vh;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  transition: all .5s ease-in-out;
+}
+.min:hover .min-name{
+  color: var(--color-secondary);
+  z-index: -1;
 }
 .min-stack{
   display: flex;
