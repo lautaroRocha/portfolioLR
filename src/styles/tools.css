@@ -9,7 +9,6 @@
     grid-row: 2/4;
 
 }
-
 .tools-text h2{
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -17,7 +16,6 @@
 .tools-text p{
     font-size: 1.2rem;
 }
-
 .tools-img{
     scroll-behavior: smooth;
     position: relative;
@@ -34,11 +32,9 @@
     mask-image: linear-gradient(to right, black, transparent);
     scrollbar-color: var(--color-tertiary) ,var(--color-background);
 }
-
 .text-gallery{
     align-items: flex-start;
 }
-
 .tools-img::-webkit-scrollbar{
     background-color: var(--color-background);
     height: 10px;
@@ -53,7 +49,6 @@
     width: clamp(40px, 6rem, 25vw);
     margin: auto;
 }
-
 .tools-img .tool{
     display: flex;
     flex-direction: column;
@@ -66,12 +61,10 @@
     font-weight: bold;
     font-size: clamp(1rem, 5vw, 1.5rem)
 }
-
 .tools-img svg:hover{
     cursor: auto;
     filter: none;
 }
-
 .container a{
     grid-column: 8 / 12;
     grid-row: 11;
@@ -80,7 +73,6 @@
 .container a svg{
     fill: var(--color-tertiary);
 }
-
 @media(min-width:550px){
     .tools-text{
         grid-row: 3/5;
@@ -99,7 +91,6 @@
         z-index: 9;
     }
 }
-
  @media(min-width:500px){
     .tools-img::-webkit-scrollbar-thumb{
         border-right: 20px solid transparent;
@@ -122,15 +113,5 @@
     }
     .text-gallery::-webkit-scrollbar-thumb{
         border-right: 200px solid transparent;
-     }
-}
-@media(min-width:700px){
-    .tools-img::-webkit-scrollbar-thumb{
-        border-right: 10vw solid transparent;
-        border-left: 15vw solid transparent;
-    }
-    .text-gallery::-webkit-scrollbar-thumb{
-        border-right: 30vw solid transparent;
-        border-left: 30vw solid transparent;
      }
 }

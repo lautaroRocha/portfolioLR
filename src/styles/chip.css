@@ -1,6 +1,6 @@
 .project-stack>span{
     color: var(--color-tertiary);
-    font-size: .6rem;
+    font-size: clamp(.6rem, 10vw ,1rem);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
