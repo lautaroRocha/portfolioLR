@@ -23,6 +23,7 @@ const FadeIn = ({
         ...(delegated.style || {}),
         animationDuration: duration + 'ms',
         animationDelay: delay + 'ms',
+        height : '100%'
       }}
     >
       {children}

@@ -71,7 +71,7 @@ function Name(){
             <div className="line">
                 <div className="left">
                   <div className="content">
-                    <span className="spanSlow">developer</span>
+                    <span className="spanFast">developer</span>
                   </div>
                 </div>
                 <div className="right">
