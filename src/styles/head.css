@@ -12,6 +12,7 @@ header{
     z-index: 10;
     background-color: var(--color-secondary);
     transition: height 1s ease-in-out;
+    max-height: 5rem;
 }
 .head-btns{
     color: var(--color-tertiary);

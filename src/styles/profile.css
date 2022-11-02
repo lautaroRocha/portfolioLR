@@ -2,16 +2,34 @@
     height: 100%;
     width: 100vw;
     position: absolute;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .profile-name{
     position: relative;
-    top: 14vh;
+    top: 10vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.profile-name>.wrap{
+    margin-top: 2rem;
+}
+.profile-name>p{
+    margin-top: 4rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--color-tertiary);
+    width: 70%;
+    text-align: right;
 }
 .profile-btns{
     position: relative;
     width: 40vw;
-    top: 25vh;
+    top: 15vh;
     left: 50vw;   
     text-align: right;
     display: flex;
@@ -57,13 +75,27 @@
     background-color:var(--color-tertiary);
 }
 @media (min-width:450px){
+    .profile-name{
+        max-height: 40vh;
+        top: 10vh;
+    }
+    .profile-name>.wrap{
+        margin-top: 3rem;
+    }
+    
     .profile-btns button{
         width: fit-content;
     }
 }
 @media (min-width:650px) {
     .profile-name{
+        top: 5vh;
         left: 10vw;
+        max-height: 40vh;
+    }
+    .profile-name>.wrap{
+        transform: scale(1.2);
+        margin-top: 5rem;
     }
     .profile-btns{
         top: 15vh;
@@ -73,8 +105,45 @@
         flex-wrap: wrap;
         width: 70%;
 
-    }
-    
+    }  
 }
 
+@media (min-width:870px) {
+    .profile-name{
+        max-height: 45vh;
+    }
+    .profile-name>.wrap{
+        margin-top: 7rem;
+        transform: scale(1.1);
+    }
+}
 
+@media (min-width:970px) {
+    .profile-name{
+        max-height: 50vh;
+    }
+    .profile-name>.wrap{
+        transform: scale(1);
+    }
+}
+
+@media (min-width:1200px){
+    .profile-name{
+        max-height: 53vh;
+    }
+    .profile-name>.wrap{
+        margin-top: 3.3rem;
+        transform: scale(.9);
+    }
+}
+.profile-name::-webkit-scrollbar{
+    background-color: var(--color-background);
+    height: 10px;
+    width: 10px;
+}
+.profile-name::-webkit-scrollbar-thumb{
+    background-color: var(--color-tertiary);
+    background-clip: content-box;
+    border-radius: 10px;
+
+}

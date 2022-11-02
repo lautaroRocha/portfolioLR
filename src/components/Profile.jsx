@@ -7,7 +7,6 @@ import {TextContext} from '../App.js'
 
 
 
-
 function Profile(){
 
     let text = useContext(TextContext);
@@ -21,7 +20,7 @@ function Profile(){
         <>
         <FadeIn>
         <div className="profile">
-                {<Name className="profile-name" />}
+                {<Name/>}
                 {text && 
                 <div className="profile-btns">
                     <Link to="/contact">

@@ -73,9 +73,9 @@ body{
 }
 
 @media (max-height: 550px){
-    body{
+    /* body{
         overflow-y: scroll;
-    }
+    } */
     .container{
         grid-template-rows: none;
     }
