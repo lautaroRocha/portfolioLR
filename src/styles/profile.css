@@ -19,11 +19,11 @@
 }
 .profile-name>p{
     margin-top: 4rem;
-    margin-right: 1rem;
+    margin-right: 10vw;
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     color: var(--color-tertiary);
-    width: 70%;
+    max-width: 27ch;
     text-align: right;
 }
 .profile-btns{
@@ -82,7 +82,7 @@
     .profile-name>.wrap{
         margin-top: 3rem;
     }
-    
+   
     .profile-btns button{
         width: fit-content;
     }
@@ -97,9 +97,13 @@
         transform: scale(1.2);
         margin-top: 5rem;
     }
+    .profile-name>p{
+        max-width: 35ch;
+        margin-right: 20vw;
+    }
     .profile-btns{
         top: 15vh;
-        left: 25vw;
+        left: 20vw;
         flex-direction: row;
         justify-content: right;
         flex-wrap: wrap;
@@ -116,6 +120,7 @@
         margin-top: 7rem;
         transform: scale(1.1);
     }
+
 }
 
 @media (min-width:970px) {
@@ -136,7 +141,7 @@
         transform: scale(.9);
     }
 }
-.profile-name::-webkit-scrollbar{
+/* .profile-name::-webkit-scrollbar{
     background-color: var(--color-background);
     height: 10px;
     width: 10px;
@@ -146,4 +151,4 @@
     background-clip: content-box;
     border-radius: 10px;
 
-}
+} */

@@ -59,6 +59,7 @@ body{
     background-image: var(--back-img);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 
 .container{
