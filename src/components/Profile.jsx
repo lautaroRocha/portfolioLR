@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import FadeIn from "../utilities/FadeIn";
 import '../styles/profile.css'
 import Name from "../utilities/Name";
+import ScrollableComponent from "../utilities/ScrollableComponent";
 import {TextContext} from '../App.js'
 
 
@@ -21,7 +22,7 @@ function Profile(){
         <>
         <FadeIn>
         <div className="profile">
-                {<Name className="profile-name" />}
+                {text && <ScrollableComponent text={text}/>}
                 {text && 
                 <div className="profile-btns">
                     <Link to="/contact">

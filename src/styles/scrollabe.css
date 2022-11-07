@@ -1,0 +1,28 @@
+.scrollable-com{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 50vh;
+    width: 100%;
+    margin-left: auto;
+}
+
+.scrollable-com>p{
+    font-size: clamp(1rem, 2vw, 2rem);
+    width: 50vw;
+    text-align: right;
+   margin-left: auto;
+   margin-right: 10vw;
+   padding-top: 30vh;
+   padding-bottom: 10rem;
+    color: var(--color-tertiary);
+}
+
+.scrollable-com::-webkit-scrollbar{
+    width: 0px;
+}
+
+@media (min-width: 850px){
+    .scrollable-com{
+        max-height: 60vh;
+    }
+}
