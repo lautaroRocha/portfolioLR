@@ -5,7 +5,7 @@ import '../styles/scrollabe.css'
 function ScrollableComponent(props){
 
     let text = props.text;
-    console.log(text)
+    
     return(
         <div className="scrollable-com">
             <Name />
