@@ -6,8 +6,6 @@ function MinProj(props){
 
     let site = props.site;
 
-
-
     return(
         <>
         { 

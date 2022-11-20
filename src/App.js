@@ -12,8 +12,8 @@ import Project from "./components/Project.jsx";
 import './styles/app.css'
 
 
-
 export const TextContext = createContext();
+
 
 function App() {
 
@@ -48,6 +48,7 @@ const getEnglish = () => {
 const changeLang = () =>{
   language === "spanish" ? setLanguage('english') : setLanguage('spanish')
 }
+
 useEffect(() =>{
   language === 'spanish' ? getSpanish() : getEnglish();
   }, [language])
@@ -57,13 +58,13 @@ useEffect(() =>{
       <BrowserRouter >
         <Head theme={changeTheme} lang={changeLang}/>
       <TextContext.Provider value={textToUse}>
-      <Routes>
-        <Route path="/" element={<Profile/>}></Route>
-        <Route path="/tools" element={<Tools />}></Route>   
-        <Route path="/projects" element={<Projects/>}></Route> 
-        <Route path="/project" element={<Project  />}></Route>
-        <Route path="/contact" element={<Contact  />}></Route>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Profile />}></Route>
+          <Route path="/tools" element={<Tools />}></Route>   
+          <Route path="/projects" element={<Projects/>}></Route> 
+          <Route path="/project" element={<Project  />}></Route>
+          <Route path="/contact" element={<Contact  />}></Route>
+        </Routes>
     </TextContext.Provider>
       </BrowserRouter>
     </>

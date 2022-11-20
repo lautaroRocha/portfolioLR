@@ -1,4 +1,4 @@
-import React, {useContext, useRef} from "react";
+import React, {useContext, useRef, Suspense} from "react";
 import { Link } from "react-router-dom";
 import FadeIn from "../utilities/FadeIn";
 import MinProj from "./MinProj";
@@ -31,7 +31,9 @@ function Projects(){
         <div className="tools-img text-gallery" onWheel={scrollDiv} ref={divToScroll}>
           {pros.map((site, idx) => {
             return(
-                <MinProj site={site} key={idx} />
+                <React.Suspense fallback={"cargando---"} key={idx}>
+                <MinProj site={site}  />
+                </React.Suspense>
                 )})
             }
         </div>}
