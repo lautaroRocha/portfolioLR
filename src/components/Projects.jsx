@@ -1,4 +1,4 @@
-import React, {useContext, useRef, Suspense} from "react";
+import React, {useContext, useRef} from "react";
 import { Link } from "react-router-dom";
 import FadeIn from "../utilities/FadeIn";
 import MinProj from "./MinProj";

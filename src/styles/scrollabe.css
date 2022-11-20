@@ -3,7 +3,7 @@
     overflow-y: scroll;
     max-height: 50vh;
     width: 100%;
-    margin-left: auto;
+    margin-left: calc(auto - 1rem);
     -webkit-mask-image: linear-gradient( rgba(31,31,31,1) 91%, rgba(0,0,0,0) 100%);
     mask-image: linear-gradient(90deg, black, transparent);
 }
@@ -20,7 +20,23 @@
 }
 
 .scrollable-com::-webkit-scrollbar{
-    width: 0px;
+    background-color: var(--color-background);
+    width: 10px;
+}
+.scrollable-com:hover::-webkit-scrollbar-thumb{
+    background-color: var(--color-background);
+    width: 10px;
+}
+.scrollable-com::-webkit-scrollbar-thumb{
+    background-color: var(--color-tertiary);
+    background-color: rgba(0,0,0,0);
+    background-clip: content-box;
+    border-radius: 10px;
+    
+}
+.scrollable-com:hover::-webkit-scrollbar-thumb{
+    background-color: var(--color-tertiary);
+    width: 10px;
 }
 
 @media (min-width: 850px){
