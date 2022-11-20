@@ -57,16 +57,16 @@
     background-color:var(--color-tertiary);
 }
 @media (min-width:450px){
-    /* .profile-btns button{
-        width: fit-content;
-    } */
+    .profile-btns{
+        top: 12vh;
+    }
 }
-@media (min-width:650px) {
+@media (min-width:600px) {
     .profile-name{
         left: 10vw;
     }
     .profile-btns{
-        top: 5vh;
+        top: 8vh;
         left: 25vw;
         flex-direction: row;
         justify-content: right;

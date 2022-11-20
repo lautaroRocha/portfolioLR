@@ -40,7 +40,22 @@
   .spanSlow.name{
     font-size: 18vw;
   }
-  @media(min-width:650px){
+  @media(min-width:600px){
+    .left{
+      color:var(--color-tertiary);
+    }
+    .right{
+      color: var(--color-secondary);
+    }
+    span{
+      font-size: 4vw;
+    }
+    .spanSlow.name{
+      font-size: 14vw;
+    }
+  }
+
+  @media(min-width:800px){
     .left{
       color:var(--color-tertiary);
     }
