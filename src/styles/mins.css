@@ -7,6 +7,7 @@
   margin:0 2vw;
   text-decoration: none;
   width: 30vw;
+  position: relative;
 }
 .min-icon{
   width: auto;
@@ -26,10 +27,8 @@
 .min-name{
   color: var(--color-tertiary);
   display: flex;
-  white-space: nowrap;
   text-transform: none;
   position: absolute;
-  top: 11vh;
   font-size: clamp(1.5rem, 5vw, 2rem);
   transition: all .5s ease-in-out;
 }
