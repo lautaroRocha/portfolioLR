@@ -51,6 +51,15 @@
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
                 "techs" : ["Css", "Javascript", "POO"],
                 "brief" : "A basic operations calculator developed as practice on POO and JS logic. It has a light/dark theme toggler."
+            },
+            "portfolio LR" : {
+                "title" : "portfolio LR",
+                "icon" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-icons/portfolio-icon.png",
+                "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/portfolio.jpg",
+                "repo" : "https://github.com/lautaroRocha/portfolioLR",
+                "link" : "https://lautaro-rocha.web.app/",
+                "techs" : ["Css", "React", "JSON", "Firebase"],
+                "brief" : "A multilingual app dsegined to diplay my projects and my skills as a developer. It has theme selection, lenguage selection and gets all of its data asynchronically through JSON and embeds that content on top of the components."
             }
 
         }        

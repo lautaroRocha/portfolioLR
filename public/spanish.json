@@ -53,14 +53,13 @@
                 "brief" :"Una calculadora de operaciones simple desarrollada como práctica de POO y lógica con Javascript. Cuenta con selector de modo (claro u oscuro)"
             },
             "portfolio LR" : {
-                "title" : "portfolio LR",
+                "title" : "Portfolio LR",
                 "icon" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-icons/portfolio-icon.png",
-                "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/calculadora.png",
+                "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/portfolio.jpg",
                 "repo" : "https://github.com/lautaroRocha/portfolioLR",
                 "link" : "https://lautaro-rocha.web.app/",
                 "techs" : ["Css", "React", "JSON", "Firebase"],
-                "brief" : "Una aplicación multilenguaje diseñada para mostrar mis proyectos y mi capacidad como desarrollador. Cuenta con selección de modo, de lenguaje, y recibe toda su información asincrónicamente a tráves de formato JSON e inyecta ese contendio en los componentes."
-               
+                "brief" : "Una aplicación multilenguaje diseñada para mostrar mis proyectos y mi capacidad como desarrollador. Cuenta con selección de modo, de lenguaje, y recibe toda su información asincrónicamente a tráves de formato JSON e inyecta ese contenido en los componentes."
             }
            
     }
