@@ -16,6 +16,15 @@
         "head" : "These are some of the projects I've been working on most recently.",
         "body" : "Click on any of them to see more.",
         "projects" : {
+            "miNOTE" :{
+                "title" : "miNOTE",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
+                "repo" : "https://github.com/lautaroRocha/miNOTES",
+                "link" : "https://minote-cf0e1.web.app",
+                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
+                "brief" :"Web app for taking and keeping notes, developed on React functional components. It has a database and an authentification users system based on Firebase. The app feats keyboard shortcuts, a minimalist UI, a favourites section and allows editing on saved notes."
+            },
             "rioba-web" : {
                 "title" : "Rioba Web",
                 "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/rioba-icon.png?raw=true",
@@ -42,16 +51,8 @@
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
                 "techs" : ["Css", "Javascript", "POO"],
                 "brief" : "A basic operations calculator developed as practice on POO and JS logic. It has a light/dark theme toggler."
-            },
-            "miNOTE" :{
-                "title" : "miNOTE",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
-                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
-                "repo" : "https://github.com/lautaroRocha/miNOTES",
-                "link" : "https://minote-cf0e1.web.app",
-                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
-                "brief" :"Web app for taking and keeping notes, developed on React functional components. It has a database and an authentification users system based on Firebase. The app feats keyboard shortcuts, a minimalist UI, a favourites section and allows editing on saved notes."
             }
+
         }        
     },
     "contact": {

@@ -16,6 +16,15 @@
         "head" : "Estos son algunos proyectos de los que estuve realizando últimamente.",
         "body" : "Entrá a cualquiera de ellos para saber más.",
         "sites" : {
+            "miNOTE" :{
+                "title" : "miNOTE",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
+                "repo" : "https://github.com/lautaroRocha/miNOTES",
+                "link" : "https://minote-cf0e1.web.app",
+                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
+                "brief" :"Aplicación web para tomar y guardar notas, desarrollada con componentes funcionales de React. Cuenta con una base de datos y sistema de autentificación de usuarios. Utiliza Firebase como backend y cuenta con atajos de teclado, diseño minimalista de UI, sección de favoritos y permite editar las notas guardadas."
+            },
             "rioba-web" : {
                 "title" : "Rioba Web",
                 "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/rioba-icon.png?raw=true",
@@ -42,16 +51,8 @@
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
                 "techs" : ["Css", "Javascript", "POO"],
                 "brief" :"Una calculadora de operaciones simple desarrollada como práctica de POO y lógica con Javascript. Cuenta con selector de modo (claro u oscuro)"
-            },
-            "miNOTE" :{
-                "title" : "miNOTE",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
-                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
-                "repo" : "https://github.com/lautaroRocha/miNOTES",
-                "link" : "https://minote-cf0e1.web.app",
-                "techs" : ["Css", "React.JS", "React Router Dom", "SweetAlert2", "Firebase"],
-                "brief" :"Aplicación web para tomar y guardar notas, desarrollada con componentes funcionales de React. Cuenta con una base de datos y sistema de autentificación de usuarios. Utiliza Firebase como backend y cuenta con atajos de teclado, diseño minimalista de UI, sección de favoritos y permite editar las notas guardadas."
             }
+           
     }
     },
     "contact": {
