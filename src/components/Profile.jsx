@@ -4,14 +4,11 @@ import FadeIn from "../utilities/FadeIn";
 import '../styles/profile.css'
 import Name from "../utilities/Name";
 import ScrollableComponent from "../utilities/ScrollableComponent";
-
-
 import {TextContext} from '../App.js'
 
 
 
-
-function Profile(){
+function Profile(props){
 
     let text = useContext(TextContext);
     let buttons; 
@@ -31,9 +28,14 @@ function Profile(){
                         <button data-text={buttons[0]}>{buttons[0]}</button>
                     </Link>
                     {/* link de descarga de CV */}
-                    <Link href="./utilities/CV_lautaroRocha.pdf" download>
+                    {props.language === "spanish" ? 
+                    <a href="CV_lautaroRocha.pdf" download="CV_lautaroRocha">
                         <button data-text={buttons[1]} >{buttons[1]}</button>
-                    </Link>
+                    </a> :
+                    <a href="CV_lautaroRocha_ENG.pdf" download="CV_lautaroRocha_ENG">
+                    <button data-text={buttons[1]} >{buttons[1]}</button>
+                    </a> 
+                    }
                     <Link to="/tools">
                         <button data-text={buttons[2]} >{buttons[2]}</button>
                     </Link>

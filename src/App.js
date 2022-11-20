@@ -59,7 +59,7 @@ useEffect(() =>{
         <Head theme={changeTheme} lang={changeLang}/>
       <TextContext.Provider value={textToUse}>
         <Routes>
-          <Route path="/" element={<Profile />}></Route>
+          <Route path="/" element={<Profile language={language}/>}></Route>
           <Route path="/tools" element={<Tools />}></Route>   
           <Route path="/projects" element={<Projects/>}></Route> 
           <Route path="/project" element={<Project  />}></Route>
