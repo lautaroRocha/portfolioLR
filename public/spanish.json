@@ -16,6 +16,15 @@
         "head" : "Estos son algunos proyectos de los que estuve realizando últimamente.",
         "body" : "Entrá a cualquiera de ellos para saber más.",
         "sites" : {
+            "CYCLOPS" :{
+                "title" : "CYCLOPS",
+                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/cyclops-icon.png?raw=true",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/cyclops.jpg?raw=true",
+                "repo" : "https://github.com/lautaroRocha/cyclops",
+                "link" : "https://github.com/lautaroRocha/cyclops",
+                "techs" : ["Scss", "React.JS", "Node.JS", "MongoDB", "Mongoose", "Multer", "API REST", "JWT"],
+                "brief" :"Ecommerce autoadministrable desarollado en Javascript, usando React en el front, Node con Express para la API y MongoDB para la base de datos trabajada con el ORM Mongoose. Permite al dueño del negocio gestionar desde una ruta privada los productos y las órdenes."
+            },
             "miNOTE" :{
                 "title" : "miNOTE",
                 "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
