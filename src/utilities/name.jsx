@@ -5,9 +5,9 @@ import '../styles/name.css'
 let width = window.innerWidth;
 
 function handleMouseMove(e) {
-  
-const spansSlow = document.querySelectorAll('.spanSlow');
-const spansFast = document.querySelectorAll('.spanFast');
+    
+  const spansSlow = document.querySelectorAll('.spanSlow');
+  const spansFast = document.querySelectorAll('.spanFast');
 
   let normalizedPosition = e.pageX / (width/2) - 1;
   let speedSlow = 100 * normalizedPosition;
@@ -59,12 +59,12 @@ function Name(){
           <div className="line">
               <div className="left">
                 <div className="content">
-                  <span className="spanFast">frontend</span>
+                  <span className="spanFast">full stack</span>
                 </div>
               </div>
               <div className="right">
                 <div className="content">
-                  <span className="spanFast">frontend</span>
+                  <span className="spanFast">full stack</span>
                 </div>
               </div>
             </div>
