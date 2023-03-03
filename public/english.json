@@ -18,7 +18,7 @@
         "projects" : {
             "CYCLOPS" :{
                 "title" : "CYCLOPS",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/cyclops-icon.png?raw=true",
+                "icon" : "icons/cyclops-icon.png",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/cyclops.jpg?raw=true",
                 "repo" : "https://github.com/lautaroRocha/cyclops",
                 "link" : "https://github.com/lautaroRocha/cyclops",
@@ -27,7 +27,7 @@
             },
             "miNOTE" :{
                 "title" : "miNOTE",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/notes-icon.png?raw=true",
+                "icon" : "icons/notes-icon.png",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/minote.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/miNOTES",
                 "link" : "https://minote-cf0e1.web.app",
@@ -36,7 +36,7 @@
             },
             "rioba-web" : {
                 "title" : "Rioba Web",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/rioba-icon.png?raw=true",
+                "icon" : "icons/rioba-icon.png",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/rioba-dsktp.png",
                 "link" : "https://lautarorocha.github.io/riobaWeb/",
                 "repo" : "https://github.com/lautaroRocha/riobaWeb",
@@ -45,7 +45,7 @@
             },
             "Outlove" : {
                 "title" : "Outlove",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/outlove-icon.png?raw=true",
+                "icon" : "icons/outlove.png",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/outlove-buy.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/outlove",
                 "link" : "https://outlove.netlify.app/",
@@ -54,7 +54,7 @@
             },
             "Calculadora JS" : {
                 "title" : "JS Calc",
-                "icon" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-icons/calc-icon.png?raw=true",
+                "icon" : "icons/calc-icon.png",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/calculadora.png",
                 "repo" : "https://github.com/lautaroRocha/calculadoraJS",
                 "link" : "https://lautarorocha.github.io/calculadoraJS/",
@@ -63,7 +63,7 @@
             },
             "portfolio LR" : {
                 "title" : "Portfolio LR",
-                "icon" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-icons/portfolio-icon.png",
+                "icon" : "icons/portfolio-icon.png",
                 "snapshot" : "https://raw.githubusercontent.com/lautaroRocha/portfolioLR/snapshots-hosting-branch/portfolio-snaps/portfolio.jpg",
                 "repo" : "https://github.com/lautaroRocha/portfolioLR",
                 "link" : "https://lautaro-rocha.web.app/",
