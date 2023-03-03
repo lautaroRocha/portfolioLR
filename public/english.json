@@ -16,6 +16,33 @@
         "head" : "These are some of the projects I've been working on most recently.",
         "body" : "Click on any of them to see more.",
         "projects" : {
+            "sharePEN" :{
+                "title" : "sharePEN",
+                "icon" : "icons/sharepen-icon.png",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/penshare.png?raw=true",
+                "repo" : "https://github.com/lautaroRocha/sharepen",
+                "link" : "https://share-pen.web.app/",
+                "techs" : ["React.JS", "Firebase", "Clean Architecture"],
+                "brief" :"A web playground for making HTML, CSS & JS prototypes, focused on sharing. The code is encrypted into the URL and the user can share that link, getting to show the portotype without saving it to a server. You can upload your works to a cloud database and see other's people work in the explore section"
+            },
+            "devCOIN" :{
+                "title" : "devCOIN",
+                "icon" : "icons/devcoin-icon.png",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/devcoin.png?raw=true",
+                "repo" : "https://github.com/lautaroRocha/devCoin-front",
+                "link" : "https://dev-coin.web.app/",
+                "techs" : ["Tailwind", "React", "Node.JS", "MySQL", "Sequelize", "API REST", "Firestore", "socket.IO"],
+                "brief" :"Web exchange for buying, sending and saving cryptocurrencies. Fully responsive web app, gets current prices from an external API and manages user's data with microservices."
+            },
+            "devplaceTALK" :{
+                "title" : "devTALK",
+                "icon" : "icons/devtalk-icon.png",
+                "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/devtalk.png?raw=true",
+                "repo" : "https://github.com/lautaroRocha/dpTalk-client",
+                "link" : "https://devplacetalk.firebaseapp.com/",
+                "techs" : ["React", "Node.JS", "MongoDB", "API REST", "Firestore", "socket.IO"],
+                "brief" :"A social platform for students of the devPlace Tech Academy where a user, after loggin in, can ask, answer and rate questions. It uses web socket technology to provide real-time notifications."
+            },
             "CYCLOPS" :{
                 "title" : "CYCLOPS",
                 "icon" : "icons/cyclops-icon.png",
