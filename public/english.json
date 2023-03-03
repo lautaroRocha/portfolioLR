@@ -45,7 +45,7 @@
             },
             "Outlove" : {
                 "title" : "Outlove",
-                "icon" : "icons/outlove.png",
+                "icon" : "icons/outlove-icon.png",
                 "snapshot" : "https://github.com/lautaroRocha/portfolioLR/blob/snapshots-hosting-branch/portfolio-snaps/outlove-buy.png?raw=true",
                 "repo" : "https://github.com/lautaroRocha/outlove",
                 "link" : "https://outlove.netlify.app/",
